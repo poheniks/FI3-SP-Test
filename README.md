@@ -8,7 +8,7 @@ FI3 Concept Testing in Singleplayer
      * Split this into multiple .cs
      * Rename this from Mod_Tools_Test to something more appropriate
      * 
-     */
+
 /*BUGS:
      * Ranged cav formations will inherit foot soldiers on occasion.
      * 
