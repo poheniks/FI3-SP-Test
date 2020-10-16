@@ -1,0 +1,290 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NPCCHaracters>
+	<NPCCharacter id="basic_xbow"
+					default_group="Ranged"
+					level="21"
+					civilianTemplate="NPCCharacter.empire_troop_civilian_template_t2"
+					name="XBow"
+					occupation="Soldier"
+					culture="Culture.empire">
+		<face>
+			<face_key_template value="NPCCharacter.villager_empire" />
+		</face>
+		<skills>
+			<skill id="Athletics"
+				   value="100" />
+			<skill id="Riding"
+				   value="15" />
+			<skill id="OneHanded"
+				   value="100" />
+			<skill id="TwoHanded"
+				   value="45" />
+			<skill id="Polearm"
+				   value="60" />
+			<skill id="Bow"
+				   value="60" />
+			<skill id="Crossbow"
+				   value="200" />
+			<skill id="Throwing"
+				   value="45" />
+		</skills>
+		<equipmentSet>
+			<equipment slot="Item0"
+					   id="Item.crossbow_e" />
+			<equipment slot="Item1"
+					   id="Item.bolt_a" />
+			<equipment slot="Item2"
+					   id="Item.empire_sword_3_t3" />
+			<equipment slot="Body"
+					   id="Item.basic_imperial_leather_armor" />
+			<equipment slot="Leg"
+					   id="Item.leather_cavalier_boots" />
+			<equipment slot="Head"
+					   id="Item.leatherlame_roundkettle_over_imperial_leather" />
+			<equipment slot="Cape"
+					   id="Item.scarf" />
+		</equipmentSet>
+	</NPCCharacter>
+	<NPCCharacter id="basic_inf"
+				default_group="Infantry"
+				level="21"
+				civilianTemplate="NPCCharacter.empire_troop_civilian_template_t2"
+				name="Infantry"
+				occupation="Soldier"
+				culture="Culture.empire">
+		<face>
+			<face_key_template value="NPCCharacter.villager_empire" />
+		</face>
+		<skills>
+			<skill id="Athletics"
+				   value="100" />
+			<skill id="Riding"
+				   value="15" />
+			<skill id="OneHanded"
+				   value="200" />
+			<skill id="TwoHanded"
+				   value="45" />
+			<skill id="Polearm"
+				   value="60" />
+			<skill id="Bow"
+				   value="60" />
+			<skill id="Crossbow"
+				   value="45" />
+			<skill id="Throwing"
+				   value="45" />
+		</skills>
+		<equipmentSet>
+			<equipment slot="Item1"
+					   id="Item.empire_sword_3_t3" />
+			<equipment slot="Body"
+					   id="Item.basic_imperial_leather_armor" />
+			<equipment slot="Leg"
+					   id="Item.leather_cavalier_boots" />
+			<equipment slot="Head"
+					   id="Item.leatherlame_roundkettle_over_imperial_leather" />
+			<equipment slot="Cape"
+					   id="Item.scarf" />
+		</equipmentSet>
+	</NPCCharacter>
+	<NPCCharacter id="basic_cav"
+			default_group="Cavalry"
+			level="21"
+			civilianTemplate="NPCCharacter.empire_troop_civilian_template_t2"
+			name="Cavalry"
+			occupation="Soldier"
+			culture="Culture.empire">
+		<face>
+			<face_key_template value="NPCCharacter.villager_empire" />
+		</face>
+		<skills>
+			<skill id="Athletics"
+				   value="50" />
+			<skill id="Riding"
+				   value="100" />
+			<skill id="OneHanded"
+				   value="150" />
+			<skill id="TwoHanded"
+				   value="45" />
+			<skill id="Polearm"
+				   value="60" />
+			<skill id="Bow"
+				   value="60" />
+			<skill id="Crossbow"
+				   value="45" />
+			<skill id="Throwing"
+				   value="45" />
+		</skills>
+		<equipmentSet>
+			<equipment slot="Item0"
+					   id="Item.eastern_spear_3_t3" />
+			<equipment slot="Item1"
+					   id="Item.decorated_steppe_shield" />
+			<equipment slot="Item2"
+					   id="Item.khuzait_sword_2_t3" />
+			<equipment slot="Head"
+					   id="Item.nomad_helmet" />
+			<equipment slot="Body"
+					   id="Item.belted_leather_cuirass" />
+			<equipment slot="Leg"
+					   id="Item.eastern_leather_boots" />
+			<equipment slot="Gloves"
+					   id="Item.studded_leather_vambraces" />
+			<equipment slot="Cape"
+					   id="Item.leather_lamellar_shoulders" />
+		</equipmentSet>
+		<equipment slot="Horse"
+		   id="Item.t2_khuzait_horse" />
+		<equipment slot="HorseHarness"
+				   id="Item.steppe_half_barding" />
+	</NPCCharacter>
+	<NPCCharacter id="basic_cav_archer"
+				  default_group="HorseArcher"
+				  level="21"
+				  civilianTemplate="NPCCharacter.khuzait_troop_civilian_template_t2"
+				  name="Horse Archer"
+				  upgrade_requires="ItemCategory.war_horse"
+				  occupation="Soldier"
+				  culture="Culture.khuzait">
+		<face>
+			<face_key_template value="NPCCharacter.villager_khuzait" />
+		</face>
+		<skills>
+			<skill id="Athletics"
+				   value="60" />
+			<skill id="Riding"
+				   value="200" />
+			<skill id="OneHanded"
+				   value="100" />
+			<skill id="TwoHanded"
+				   value="45" />
+			<skill id="Polearm"
+				   value="45" />
+			<skill id="Bow"
+				   value="100" />
+			<skill id="Crossbow"
+				   value="15" />
+			<skill id="Throwing"
+				   value="60" />
+		</skills>
+		<equipmentSet>
+			<equipment slot="Item0"
+					   id="Item.composite_bow" />
+			<equipment slot="Item1"
+					   id="Item.steppe_arrows" />
+			<equipment slot="Item2"
+					   id="Item.steppe_arrows" />
+			<equipment slot="Item3"
+					   id="Item.khuzait_sword_3_t3" />
+			<equipment slot="Body"
+					   id="Item.leather_lamellar_armor" />
+			<equipment slot="Head"
+					   id="Item.plumed_nomad_helmet" />
+			<equipment slot="Leg"
+					   id="Item.steppe_leather_boots" />
+			<equipment slot="Gloves"
+					   id="Item.studded_leather_vambraces" />
+			<equipment slot="Cape"
+					   id="Item.leather_lamellar_shoulders" />
+		</equipmentSet>
+		<equipment slot="Horse"
+				   id="Item.t2_khuzait_horse" />
+		<equipment slot="HorseHarness"
+				   id="Item.steppe_half_barding" />
+	</NPCCharacter>
+	<NPCCharacter id="soldier_assault"
+				  default_group="Ranged"
+				  level="26"
+				  civilianTemplate="NPCCharacter.battania_troop_civilian_template_t2"
+				  name="Ranged Assault"
+				  occupation="Soldier"
+				  culture="Culture.battania">
+		<face>
+			<face_key_template value="NPCCharacter.villager_battania" />
+		</face>
+		<skills>
+			<skill id="Athletics"
+				   value="130" />
+			<skill id="Riding"
+				   value="80" />
+			<skill id="OneHanded"
+				   value="80" />
+			<skill id="TwoHanded"
+				   value="200" />
+			<skill id="Polearm"
+				   value="60" />
+			<skill id="Bow"
+				   value="200" />
+			<skill id="Crossbow"
+				   value="20" />
+			<skill id="Throwing"
+				   value="50" />
+		</skills>
+		<equipmentSet>
+			<equipment slot="Item0"
+					   id="Item.woodland_longbow" />
+			<equipment slot="Item1"
+					   id="Item.bodkin_arrows_a" />
+			<equipment slot="Item2"
+					   id="Item.bodkin_arrows_a" />
+			<equipment slot="Item3"
+					   id="Item.battania_2hsword_5_t4" />
+			<equipment slot="Body"
+					   id="Item.battania_woodland_chainmail" />
+			<equipment slot="Head"
+					   id="Item.battanian_plated_noble_helmet" />
+			<equipment slot="Gloves"
+					   id="Item.highland_gloves" />
+			<equipment slot="Leg"
+					   id="Item.battania_woodland_boots" />
+			<equipment slot="Cape"
+					   id="Item.battania_shoulder_furr" />
+		</equipmentSet>
+	</NPCCharacter>
+	<NPCCharacter id="soldier_armored"
+				  default_group="Infantry"
+				  level="26"
+				  civilianTemplate="NPCCharacter.vlandia_troop_civilian_template_t3"
+				  name="Armored Assault"
+				  occupation="Soldier"
+				  culture="Culture.vlandia">
+		<face>
+			<face_key_template value="NPCCharacter.villager_vlandia" />
+		</face>
+		<skills>
+			<skill id="Athletics"
+				   value="130" />
+			<skill id="Riding"
+				   value="80" />
+			<skill id="OneHanded"
+				   value="200" />
+			<skill id="TwoHanded"
+				   value="60" />
+			<skill id="Polearm"
+				   value="130" />
+			<skill id="Bow"
+				   value="20" />
+			<skill id="Crossbow"
+				   value="60" />
+			<skill id="Throwing"
+				   value="80" />
+		</skills>
+		<equipmentSet>
+			<equipment slot="Item0"
+					   id="Item.vlandia_mace_2_t4" />
+			<equipment slot="Item1"
+					   id="Item.stronger_reinforced_kite_shield" />
+			<equipment slot="Item2"
+					   id="Item.western_spear_4_t4" />
+			<equipment slot="Body"
+					   id="Item.white_coat_over_mail" />
+			<equipment slot="Leg"
+					   id="Item.mail_chausses" />
+			<equipment slot="Head"
+					   id="Item.full_helm_over_laced_coif" />
+			<equipment slot="Gloves"
+					   id="Item.reinforced_mail_mitten" />
+			<equipment slot="Cape"
+					   id="Item.pauldron_cape_a" />
+		</equipmentSet>
+	</NPCCharacter>
+</NPCCHaracters>

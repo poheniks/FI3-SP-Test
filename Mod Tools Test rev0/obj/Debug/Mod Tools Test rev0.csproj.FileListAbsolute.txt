@@ -1,0 +1,8 @@
+C:\Users\Chris\source\repos\Mod Tools Test rev0\obj\Debug\Mod Tools Test rev0.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\Mount & Blade II Bannerlord\Modules\Mod_Tools_Test_rev0\bin\Win64_Shipping_Client\Mod_Tools_Test.dll
+C:\Program Files (x86)\Steam\steamapps\common\Mount & Blade II Bannerlord\Modules\Mod_Tools_Test_rev0\bin\Win64_Shipping_Client\Mod_Tools_Test.pdb
+C:\Users\Chris\source\repos\Mod Tools Test rev0\obj\Debug\Mod_Tools_Test.dll
+C:\Users\Chris\source\repos\Mod Tools Test rev0\obj\Debug\Mod_Tools_Test.pdb
+C:\Program Files (x86)\Steam\steamapps\common\Mount & Blade II Bannerlord\Modules\Mod_Tools_Test\bin\Win64_Shipping_Client\Mod_Tools_Test.dll
+C:\Program Files (x86)\Steam\steamapps\common\Mount & Blade II Bannerlord\Modules\Mod_Tools_Test\bin\Win64_Shipping_Client\Mod_Tools_Test.pdb
+C:\Users\Chris\source\repos\Mod Tools Test rev0\obj\Debug\Mod Tools Test rev0.csprojAssemblyReference.cache
