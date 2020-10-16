@@ -1,6 +1,8 @@
-﻿**Not my readme btw, but helpful links 
+See the comments in the .cs file. Need to reorg into multiple .cs for readability
  
- This is a work in progress!
+ 
+ 
+This is a work in progress!
 
 Helpful information:
 
