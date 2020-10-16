@@ -1,2 +1,2 @@
 # FI3-SP-Test
-FI3 concept testing in single player
+FI3 Concept Testing in Singleplayer
