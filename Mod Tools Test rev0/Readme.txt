@@ -1,4 +1,6 @@
-﻿This is a work in progress!
+﻿**Not my readme btw, but helpful links 
+ 
+ This is a work in progress!
 
 Helpful information:
 
